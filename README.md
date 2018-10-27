@@ -13,7 +13,7 @@ gem install actionpack-action_caching
 ```
 
 
-```
+```ruby
 class ListsController < ApplicationController
   before_action :authenticate, except: :public
   caches_page :public
